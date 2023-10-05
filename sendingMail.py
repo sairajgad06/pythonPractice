@@ -3,8 +3,8 @@ import smtplib
 def prompt(prompt):
    return input(prompt).strip()
    
-fromaddr = prompt("From: sairajgad06@gmail.com")
-toaddrs = prompt("To: sairaj.gad@atos.net").split()
+fromaddr = prompt("From: ")
+toaddrs = prompt("To: ").split()
 print("Enter message, end with ^D (Unix) or ^Z (Windows):")
 
 # Add the From: and To: headers at the start!
